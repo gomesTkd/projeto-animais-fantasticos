@@ -25,7 +25,6 @@ export default function fetchAnimais(url, target) {
     const animaNumeros = new AnimaNumeros('[data-numero]', '.numeros', 'ativo');
     animaNumeros.init();
   }
-
   /*
   puxa os animais através de um arquivo json e cria cada animal utilizando createAnimal
   */
