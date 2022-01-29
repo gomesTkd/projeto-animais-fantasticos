@@ -26,7 +26,7 @@ export default class ScrollAnima {
 
   checkDistance() {
     this.distance.forEach((item) => {
-      if (window.pageYOffset > item.offset) {
+      if (window.screenY > item.offset) {
         item.element.classList.add('ativo');
       } else if (item.element.classList.contains('ativo')) {
         item.element.classList.remove('ativo');
